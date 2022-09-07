@@ -2,8 +2,8 @@ import streamlit as st
 from fastai.vision.all import *
 import pathlib
 import plotly.express as px
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+temp = pathlib.system()
+if plt == 'Linux': pathlib.PosixPath = pathlib.PosixPath
 
 
 st.title("Barcha maxluqotlar haqida (yirtqich hayvonlar, qisqichbaqasimonlar, sutemizuvchi ...)ni aniqlovchi Web DS app.")
